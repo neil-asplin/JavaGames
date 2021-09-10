@@ -1,33 +1,28 @@
-package com.neilasplin.javagames.drawdonut;
+package com.neilasplin.javagames.drawimage;
 
 import java.awt.EventQueue;
 import javax.swing.JFrame;
 
-public class Application extends JFrame {
+public class ImageExample extends JFrame {
 
-    public Application() {
-
+    public ImageExample() {
         initUI();
     }
 
     private void initUI() {
-
         add(new Board());
 
-        setSize(330, 330);
+        pack();
 
-        setTitle("Donut");
+        setTitle("Bardejov");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
-
     }
 
     public static void main(String[] args) {
-
         EventQueue.invokeLater(() -> {
-            Application ex = new Application();
-            ex.setVisible(true);
+           ImageExample ex = new ImageExample();
+           ex.setVisible(true);
         });
-
     }
 }

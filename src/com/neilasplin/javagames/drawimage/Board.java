@@ -24,7 +24,7 @@ public class Board  extends JPanel {
     }
 
     private void loadImage() {
-        ImageIcon ii = new ImageIcon("jetbrains://idea/navigate/reference?project=JavaGames&path=alien.png");
+        ImageIcon ii = new ImageIcon("resources/alien.png");
         bardejov = ii.getImage();
     }
 

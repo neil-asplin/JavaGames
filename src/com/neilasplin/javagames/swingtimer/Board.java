@@ -17,7 +17,7 @@ public class Board  extends JPanel implements ActionListener {
     private final int B_HEIGHT = 350;
     private final int INITIAL_X = -40;
     private final int INITIAL_Y = -40;
-    private final int DELAY = 40;
+    private final int DELAY = 1;
     
     private Image star;
     private Timer timer;
